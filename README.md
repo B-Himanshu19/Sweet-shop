@@ -198,6 +198,8 @@ cd backend && npm test
 
 **Test Results:** ✅ All 33 tests passing
 
+**Test Report:** See [TEST_REPORT.md](./TEST_REPORT.md) for detailed test coverage and results.
+
 ## 🎨 Design
 
 The application features a modern, clean, and responsive design:
@@ -271,7 +273,27 @@ AI tools were invaluable in this project, especially for generating boilerplate 
 
 ## 📸 Screenshots
 
-*Note: Screenshots of the application in action should be added here after running the application locally.*
+To add screenshots of your application:
+
+1. Run the application locally (see Getting Started section)
+2. Take screenshots of:
+   - Login page
+   - Registration page
+   - Dashboard with sweets displayed
+   - Search and filter functionality
+   - Admin panel
+   - Purchase functionality
+3. Add images to a `/screenshots` folder
+4. Update this section with image references
+
+**Example:**
+```markdown
+![Login Page](./screenshots/login.png)
+![Dashboard](./screenshots/dashboard.png)
+![Admin Panel](./screenshots/admin-panel.png)
+```
+
+*Note: Screenshots can be added after running the application locally. The application is fully functional and ready for screenshots.*
 
 ## 🚢 Deployment
 
