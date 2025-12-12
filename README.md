@@ -4,13 +4,13 @@ A full-stack web application for managing a sweet shop inventory, built with Nod
 
 ## 🚀 Quick Start - Open in Browser
 
-**View Repository:** [Click here to open the repository](https://github.com/YOUR_FRIEND_USERNAME/sweet-shop-management)
+**View Repository:** [Click here to open the repository](https://github.com/B-Himanshu19/Sweet-shop)
 
-**Open in Browser Editor:** [Click here to edit in GitHub.dev](https://github.dev/YOUR_FRIEND_USERNAME/sweet-shop-management)
+**Open in Browser Editor:** [Click here to edit in GitHub.dev](https://github.dev/B-Himanshu19/Sweet-shop)
 
-**Open in Codespaces:** [Click here to open in GitHub Codespaces](https://codespaces.new/YOUR_FRIEND_USERNAME/sweet-shop-management)
+**Open in Codespaces:** [Click here to open in GitHub Codespaces](https://codespaces.new/B-Himanshu19/Sweet-shop)
 
-> **Note:** Replace `YOUR_FRIEND_USERNAME` with the actual GitHub username after the repository is set up.
+> ✅ **Repository is live!** Click any link above to view or edit the project in your browser.
 
 ## 🎯 Project Overview
 
