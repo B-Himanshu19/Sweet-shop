@@ -42,7 +42,7 @@ Write-Host "Adding remote origin..." -ForegroundColor Cyan
 git remote add origin $repoUrl
 
 if ($LASTEXITCODE -eq 0) {
-    Write-Host "✓ Remote added successfully!" -ForegroundColor Green
+    Write-Host "Remote added successfully!" -ForegroundColor Green
 } else {
     Write-Host "Error adding remote. It might already exist." -ForegroundColor Red
     exit 1
@@ -60,7 +60,7 @@ Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "1. Make sure your friend has created the repository: $repoUrl" -ForegroundColor Yellow
 Write-Host "2. Make sure the repository is PUBLIC" -ForegroundColor Yellow
-Write-Host "3. Your friend should add you as a collaborator (Settings → Collaborators)" -ForegroundColor Yellow
+Write-Host "3. Your friend should add you as a collaborator (Settings -> Collaborators)" -ForegroundColor Yellow
 Write-Host ""
 Write-Host "Then run:" -ForegroundColor Cyan
 Write-Host "  git push -u origin main" -ForegroundColor White
@@ -69,13 +69,17 @@ Write-Host "========================================" -ForegroundColor Cyan
 Write-Host "Browser Links:" -ForegroundColor Cyan
 Write-Host "========================================" -ForegroundColor Cyan
 Write-Host ""
+
+$repoLink = "https://github.com/$friendUsername/$repoName"
+$devLink = "https://github.dev/$friendUsername/$repoName"
+$codespaceLink = "https://codespaces.new/$friendUsername/$repoName"
+
 Write-Host "Repository Link:" -ForegroundColor Green
-Write-Host "  https://github.com/$friendUsername/$repoName" -ForegroundColor White
+Write-Host "  $repoLink" -ForegroundColor White
 Write-Host ""
 Write-Host "Open in Browser Editor (GitHub.dev):" -ForegroundColor Green
-Write-Host "  https://github.dev/$friendUsername/$repoName" -ForegroundColor White
+Write-Host "  $devLink" -ForegroundColor White
 Write-Host ""
 Write-Host "Open in Codespaces:" -ForegroundColor Green
-Write-Host "  https://codespaces.new/$friendUsername/$repoName" -ForegroundColor White
+Write-Host "  $codespaceLink" -ForegroundColor White
 Write-Host ""
-
