@@ -213,7 +213,6 @@ The application features a modern, clean, and responsive design:
 
 ### Which AI Tools Were Used
 
-I used **Claude (via Cursor AI)** extensively throughout the development of this project. Cursor's AI assistant was instrumental in:
 
 1. **Code Generation**: Generating boilerplate code for Express routes, React components, and TypeScript interfaces
 2. **Test Writing**: Creating comprehensive test suites for services and API endpoints
